@@ -41,7 +41,7 @@ function draw() {
   image(lip_stick, noseZ,noseW,50,20);
 }
 
-function take_snapshot(){    
+function snapshot(){    
   save('myFilterImage.png');
 }
 
