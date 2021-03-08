@@ -1,0 +1,20 @@
+#snap:hover{
+    background-color: rgb(50, 192, 7);
+}
+#snap{
+    font-size: larger;
+}
+canvas{
+    border: black 2px solid;
+    animation-name: cool;animation-duration: 6s;animation-iteration-count: infinite;
+}@keyframes cool{
+    from{
+        box-shadow: 6px 6px 50px orange;
+    }
+    to{
+        box-shadow: 6px 6px 50px aqua;
+    }
+}
+h1{
+    filter: contrast(3px);
+}
